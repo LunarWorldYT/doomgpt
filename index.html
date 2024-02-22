@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Mini Doom Game</title>
-        <style>
-            /* Basic styling for the game canvas */
-            #gameCanvas {
-                border: 1px solid black;
-                width: 800px;
-                height: 600px;
-            }
-        </style>
-    </head>
-    <body>
-        <main>
-            <canvas id="gameCanvas" width="800" height="600"></canvas>
-        </main>
+<head>
+    <title>Mini Doom</title>
+    <style>
+        #gameCanvas {
+            border: 1px solid black;
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </main>
 
-        <!-- Linking JavaScript files -->
-        <script src="playerMovement.js"></script>
-        <script src="wallDetection.js"></script>
-    </body>
+    <!-- Scripts -->
+    <script src="playerMovement.js"></script>
+    <script src="wallDetection.js"></script>
+    <script src="healthBar.js"></script>
+</body>
 </html>
